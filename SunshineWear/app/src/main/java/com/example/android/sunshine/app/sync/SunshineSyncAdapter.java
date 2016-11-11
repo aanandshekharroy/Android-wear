@@ -36,6 +36,7 @@ import com.example.android.sunshine.app.R;
 import com.example.android.sunshine.app.Utility;
 import com.example.android.sunshine.app.data.WeatherContract;
 import com.example.android.sunshine.app.muzei.WeatherMuzeiSource;
+import com.google.android.gms.common.api.GoogleApiClient;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -426,7 +427,8 @@ public class SunshineSyncAdapter extends AbstractThreadedSyncAdapter {
                     Log.e(LOG_TAG, "Error retrieving large icon from " + artUrl, e);
                     largeIcon = BitmapFactory.decodeResource(resources, artResourceId);
                 }
-
+                GoogleApiClient googleApiClient=new GoogleApiClient.Builder(context)
+                        .addApi(Wearable.API)
                 SharedPreferences.Editor editor = prefs.edit();
                 editor.putLong(lastNotificationKey, System.currentTimeMillis());
                 editor.commit();
