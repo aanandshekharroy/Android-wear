@@ -3,7 +3,8 @@ Udacity - Android Developer Nanodegree - Projects 6: Go Ubiquitous
 
 Android Wear is an exciting way to integrate your app more directly into usersâ€™ lives. As a new developer, it will be important for to understand how to perform this integration. This project gives an opportunity to design a companion app for Sunshine, tying it to a watch face in order to enrich the experience.
 
-![screen](../master/watchface2.png)
+![screen](../master/scrrenshots/watchface2.png)
+![screen](../master/scrrenshots/watchface1.png)
 
 
 ## Project Specification
@@ -18,5 +19,5 @@ Android Wear is an exciting way to integrate your app more directly into usersâ€
 ## Android Developer Nanodegree
 [![udacity][1]][2]
 
-[1]: ../master/nanodegree-logo.png
+[1]: ../master/scrrenshots/nanodegree-logo.png
 [2]: https://www.udacity.com/course/android-developer-nanodegree--nd801
